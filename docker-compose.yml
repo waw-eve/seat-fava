@@ -1,0 +1,17 @@
+version: "3.3"
+services:
+
+  fava:
+    build: .
+    ports:
+      - "127.0.0.1:5000:5000"
+    volumes:
+      - ./data:/data
+    network_mode: bridge
+
+  seat-beancount:
+    image: alliancewaw/seat-beancount
+    volumes: 
+      - ./data:/data
+    network_mode: bridge
+    command: /data/config.json

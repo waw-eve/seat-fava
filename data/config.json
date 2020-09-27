@@ -1,0 +1,11 @@
+{
+  "baseUrl": "https://seat.example.com/api",
+  "token": "SiaVjEbphVYejKxfLbCCMU7H8Gs9AAE1",
+  "corporationIdMap": {
+    "TEST": 98000000,
+    "MEOW": 98000001
+  },
+  "targetPath": "/data",
+  "isDaemon": true,
+  "quartzRepeatInterval": 120
+}

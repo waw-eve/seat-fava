@@ -1,0 +1,4 @@
+include "global.option.bean"
+include "accounts.bean"
+include "TEST/index.bean"
+include "MEOW/index.bean"
